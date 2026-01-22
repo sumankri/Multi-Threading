@@ -12,5 +12,6 @@ public class ThreadDemoPriority {
             System.out.println("Main Thread - " + i);
         }
         System.out.println("All thread execution is completed!!!");
+        System.out.println("Another completion message!!!");
     }
 }
