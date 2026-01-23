@@ -14,6 +14,7 @@ public class _1_StringOfHighestLength {
 
 		Arrays.stream(str.split(" ")).max(Comparator.comparing(String::length))
 				.ifPresent(System.out::println);
+
 	}
 
 }
